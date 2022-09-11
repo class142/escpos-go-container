@@ -10,6 +10,9 @@
 # start SSH server
 ::respawn:/bin/dropbear -R -F -b /etc/banner.txt
 
+# start joke printer service
+::respawn:/opt/go/printer_armv7/printer /opt/go/printer_armv7/jokes.json
+
 # start logger
 ::respawn:/bin/metalog -N -C /etc/metalog.conf
 

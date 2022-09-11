@@ -23,6 +23,7 @@ PACKAGES_2="
 "
 
 PACKAGES_3="
+    joke_printer.sh
 "
 
 # in case $1 is "do_nothing" this script will end here; quirk needed for automated daily builds
